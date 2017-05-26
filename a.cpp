@@ -1,6 +1,9 @@
-#include <iostream> 
-using namespace std; 
+#include <stdio.h>
 
-int main() { 
-    cout<<"Hello World!"<<endl; 
+int main() {
+    int a = 5;
+    int b = 10;
+    int c = a * b;
+    printf("%d\n", c);
+    return 0;
 }
