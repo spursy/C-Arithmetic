@@ -2,10 +2,10 @@
     // See https://go.microsoft.com/fwlink/?LinkId=733558
     // for the documentation about the tasks.json format
     "version": "0.1.0",
-    "command": "clang",
+    "command": "clang++",
     "isShellCommand": true,
     "args": [
-        "./IDEDemo/a.cpp", // 入口文件
+        "./SyntaxDemo/demo.cpp", // 入口文件
         "-g", // 是否生成调试信息
         "-O0", // 提示编译速度
         "-m32" // 64bit下
